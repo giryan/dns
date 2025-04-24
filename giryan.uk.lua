@@ -2,6 +2,6 @@ a(_a, "81.187.12.59")
 
 cname("www", _a)
 
-cname("*", _a)
+a("*", "81.187.12.59")
 
-cname(concat("*","internal"), _a)
+a("*.internal", "81.187.12.59")
