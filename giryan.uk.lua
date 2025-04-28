@@ -4,6 +4,6 @@ cname("www", _a)
 
 a("*", "81.187.12.59")
 
-cname("*.internal", _a)
+a("*.internal", "81.187.12.59")
 
 a("aleph1.internal", "192.168.0.99")
