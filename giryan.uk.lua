@@ -12,5 +12,8 @@ cname("_acme-challenge.pan.giryan.uk","_acme-challenge.ytn1vh8l6yfd2l2.cname.pan
 ns("testing", "ns1.pangolin.net")
 ns("testing", "ns2.pangolin.net")
 ns("testing", "ns3.pangolin.net")
+ns("*.testing", "ns1.pangolin.net")
+ns("*.testing", "ns2.pangolin.net")
+ns("*.testing", "ns3.pangolin.net")
 
 -- a("aleph1.internal", "192.168.0.99")
